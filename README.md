@@ -42,6 +42,7 @@ pip install -U pip
 pip install numpy pandas scikit-learn matplotlib joblib
 ```
 
+
 ### ▶️ Run the Project
 
 - [x] **demo_train.py**  
@@ -66,3 +67,12 @@ Profit-optimized threshold: 0.47
 Estimated profit: $203.8M (Approved 59,400 / 69,346)
 
 (Numbers can vary slightly by environment; seed = 42.)
+
+| Confusion Matrix | Precision–Recall Curve |
+|---|---|
+| ![PR Curve](output/pr_curve.png) | ![Summary](output/summary_output.png) |
+
+
+
+
+
